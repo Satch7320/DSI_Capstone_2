@@ -5,7 +5,7 @@ The second of three capstones in the Galvanize Data Science Immersive.
 ## Proposals
 
 ### 1: M:tG Card Generator
-Using the API from https://scryfall.com again, the entire library of Magic cards is easily accessible as a JSON file in a single query. My intention with the project would be to create a neural network that could create 'legitimate' Magic cards, i.e. those that could exist under the game's rules. There are many interrelated elements; a card's color, cost, rules text, name, and type all follow guidelines set by the designers and I want to see if I can train a neural network to create cards that obey these rules. 
+Using the API from https://scryfall.com again, the entire library of Magic cards is easily accessible as a JSON file in a single query. My intention with the project would be to create a neural network that could create 'legitimate' Magic cards, i.e. those that could exist under the game's rules. There are many interrelated elements; a card's color, cost, rules text, name, and type all follow guidelines set by the designers and I want to see if I can train a neural network to create cards that obey these rules without explicitly defining the rules.
 
 For example, a blue card is more likely to be an instant than a green card, a creature's cost is usually correlated to its power/toughness, and colors have primary, secondary, and tertiary keyword availabilities, so if the generator created a soldier with 1 power/1 toughness, deathtouch, and a cost of {U}{U}{U}, this would break the design rules. Deathtouch is not a blue keyword, a mana cost of 3 is too high for a 1/1 with a single keyword, and there are 66 Blue soldiers out of 1,590 blue creatures in contrast to the 432 soldiers of the 2,470 creatures in white.
 
