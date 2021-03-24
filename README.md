@@ -1,4 +1,4 @@
-# DSI_Capstone_2
+# DSI Capstone 2
 The second of three capstones in the Galvanize Data Science Immersive.
 
 
